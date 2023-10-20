@@ -1,0 +1,14 @@
+$button-background: #0074D9;
+$button-text-color: #ffffff;
+$button-padding: 10px 20px;
+$button-border: none;
+$button-border-radius: 5px;
+
+button {
+  background-color: $button-background;
+  color: $button-text-color;
+  padding: $button-padding;
+  border: $button-border;
+  border-radius: $button-border-radius;
+}
+
