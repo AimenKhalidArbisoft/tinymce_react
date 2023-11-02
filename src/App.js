@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import {Editor} from "@tinymce/tinymce-react";
+import "./App.scss"
 import styles from "./EditorStyle.scss";
 
 const App = () => {
@@ -8,14 +9,14 @@ const App = () => {
 
   function handleOnClick() {
     let content = editorRef.current.getContent()
-    console.log(content);
+    console.log(styles);
     document.getElementById("content").innerHTML = content;
   }
-
   return (
     <>
       <Editor
-        onInit={(evt, editor) => editorRef.current=editor}
+        onInit={(evt, editor) => editorRef.current = editor}
+        apiKey="q8b4t0w2rxnpz5btefnt8hxe5q2s03gywjbhgpuwemaxkqkb"
         textareaName="content"
         initialValue="Write content"
         init={{
