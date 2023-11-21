@@ -2,6 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import {Editor} from "@tinymce/tinymce-react";
 import "./App.scss"
+import "./MainStyles.scss"
 import styles from "./EditorStyle.scss";
 
 const App = () => {
