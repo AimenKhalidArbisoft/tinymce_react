@@ -5,7 +5,6 @@ on:
 jobs:
   optional-1:
     runs-on: ubuntu-latest
-    if: false
     steps:
       - name: optional-step-1
         run: echo "optional step 1"
