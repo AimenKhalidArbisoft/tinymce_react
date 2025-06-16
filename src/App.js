@@ -6,6 +6,7 @@ import "./MainStyles.scss"
 import styles from "./EditorStyle.scss";
 
 const App = () => {
+  // testing
   const editorRef = useRef();
 
   function handleOnClick() {
