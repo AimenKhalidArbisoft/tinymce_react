@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: optional-step-1
         run: echo "optional step 1"
+      - name: skip-step
+        run: exit 1
 
   optional-2:
     runs-on: ubuntu-latest
