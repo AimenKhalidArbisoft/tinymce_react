@@ -8,6 +8,5 @@ on:
 
 jobs:
   compulsory-job:
-    runs-on: ubuntu-latest
     uses: ./.github/workflows/workflow_sub.yml
   
