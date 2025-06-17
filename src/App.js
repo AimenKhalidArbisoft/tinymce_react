@@ -8,7 +8,7 @@ import styles from "./EditorStyle.scss";
 const App = () => {
   // testing
   // testing 2
-  // test 3
+  // test 4
   const editorRef = useRef();
 
   function handleOnClick() {
