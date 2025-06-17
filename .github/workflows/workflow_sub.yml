@@ -12,7 +12,7 @@ jobs:
 
   optional-2:
     runs-on: ubuntu-latest
-
+    if: false
     steps:
       - name: optional-step-2
         run: echo "optional step 2"
