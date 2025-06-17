@@ -4,7 +4,6 @@ on:
 
 jobs:
   optional-1:
-    if: false
     runs-on: ubuntu-latest
     steps:
       - name: optional-step-1
